@@ -1,0 +1,9 @@
+[04-Sep-2019 12:18:11 Asia/Calcutta] PHP Notice:  Undefined index: Location in /home/httpastutemanage/public_html/herocollections/admin/querydata.php on line 335
+[04-Sep-2019 12:18:11 Asia/Calcutta] PHP Warning:  Invalid argument supplied for foreach() in /home/httpastutemanage/public_html/herocollections/admin/querydata.php on line 336
+[11-Dec-2019 15:42:20 Asia/Calcutta] PHP Notice:  Undefined index: type in /home/httpastutemanage/public_html/herocollections/admin/Editcentralmanager.php on line 84
+[11-Dec-2019 15:42:20 Asia/Calcutta] PHP Notice:  Undefined index: type in /home/httpastutemanage/public_html/herocollections/admin/Editcentralmanager.php on line 89
+[25-Apr-2023 17:17:46 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Call to undefined function mcrypt_create_iv() in /home/httpastutemanage/public_html/herocollections/admin/password_hash.php:23
+Stack trace:
+#0 /home/httpastutemanage/public_html/herocollections/admin/querydata.php(371): create_hash('mohanish')
+#1 {main}
+  thrown in /home/httpastutemanage/public_html/herocollections/admin/password_hash.php on line 23
